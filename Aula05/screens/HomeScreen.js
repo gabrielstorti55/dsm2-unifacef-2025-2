@@ -16,6 +16,10 @@ export default function HomeScreen({ navigation }) {
         title="Perfil"
         onPress={() => navigation.navigate('Perfil')}
       />
+      <Button
+        title="Ir para Galeria"
+        onPress={() => navigation.navigate('Gallery')}
+      />
     </View>
   );
 }
